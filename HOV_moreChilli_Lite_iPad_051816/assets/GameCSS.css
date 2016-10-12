@@ -1,0 +1,432 @@
+#game-container{
+	position: absolute;
+	overflow:hidden;
+	width:1024px;
+	height:768px;
+	left: 0px;
+	top: 0px;
+}
+
+.gamebg{
+	background-image:url("gameBG_iPad.png");
+	position: absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+}
+
+.reels{
+    position: absolute;
+    overflow:hidden;
+    width: 983px;
+    height: 459px;
+    top: 160px;
+    left: 19px;
+}
+
+#reel1{
+	position: absolute;
+    width: 155px;
+    left: 76px;
+}
+
+#reel2{
+	position: absolute;
+    width: 155px;
+    left: 244px;
+}
+
+#reel3{
+	position: absolute;
+    width: 155px;
+    left: 412px;
+}
+
+#reel4{
+	position: absolute;
+    width: 155px;
+    left: 582px;
+}
+
+#reel5{
+	position: absolute;
+    width: 155px;
+    left: 750px;  
+}
+
+.reel-top{
+	top:-2280px;
+}
+
+.reel-spin{
+	top:-2280px;
+	-webkit-animation: reel-spin 2s cubic-bezier(0.46, 0.1, 0.63, 1.35);
+}
+
+.image1{
+	background-image: url("image1_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image2{
+	background-image: url("image2_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image3{
+	background-image: url("image3_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image4{
+	background-image: url("image4_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image5{
+	background-image: url("image5_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image6{
+	background-image: url("image6_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image7{
+	background-image: url("image7_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image8{
+	background-image: url("image8_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image9{
+	background-image: url("image9_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image10{
+	background-image: url("image10_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image11{
+	background-image: url("image11_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image12{
+	background-image: url("image12_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image13{
+	background-image: url("image13_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image14{
+	background-image: url("image14_iPad.png");
+	position: absolute;
+	width:158px;
+	height:152px;
+}
+
+.image15{
+	background-image: url("chilliSprite_iPad.png");
+	position: absolute;
+	width:156px;
+	height:156px;
+}
+
+.chilliSP{
+	-webkit-animation: chilliSP .8s steps(6) alternate 10;
+}
+
+.image16{
+	background-image: url("manSprite_iPad.png");
+	position: absolute;
+	width:158px;
+	height:187px;
+	-webkit-transform:translate(-2px, -39px);
+}
+
+.manSP{
+	-webkit-animation: manSP 1s steps(11) alternate 10;
+}
+
+.blinkimage{
+	-webkit-animation: blinkimage .3s ease-in-out infinite alternate;
+}
+
+.line{
+    background-color: #00BBFE;
+    border-radius: 15px;
+    border: 2px solid #039FD9;
+    width: 28px;
+    height: 8px;
+    position: absolute;
+    -webkit-transform: rotate(-38deg);
+}
+
+.L1{
+    left: 240px;
+    top: 302px;
+}
+
+.L2{
+    left: 410px;
+    top: 302px;
+    -webkit-transform: rotate(38deg);
+}
+
+.L3{
+    left: 580px;
+    top: 302px;
+}
+
+.L4{
+	left: 748px;
+    top: 302px;
+    -webkit-transform: rotate(38deg);
+}
+
+.betIn{
+	background-image:url("betIn_iPad.png");
+	position: absolute;
+    width:43px;
+    height:38px;
+	left: 382px;
+    top: 711px;
+    opacity:0;
+}
+
+.betDe{
+	background-image:url("betDe_iPad.png");
+	position: absolute;
+    width:43px;
+    height:38px;
+    left: 155px;
+    top: 711px;
+    opacity:0;
+}
+
+.betclick{
+	-webkit-animation: betclick .1s ease-in-out;
+}
+
+.firework{
+	background-image:url('firework_iPad.png');
+	width:366px;
+	height:381px;
+	position:absolute;
+	opacity:0;
+}
+
+.fw1{
+    left: 68px;
+    top: 170px;
+	-webkit-animation:splash .8s infinite;
+}
+
+.fw2{
+    left:441px;
+    top: 140px;
+	-webkit-animation:splash 1s infinite .8s;
+}
+
+.fw3{
+    left: 209px;
+    top: 249px;
+	-webkit-animation:splash .8s infinite .2s;
+}
+
+.fw4{
+    left: 610px;
+    top:223px;
+	-webkit-animation:splash 1s infinite .5s;
+}
+
+.bwTxtBox{
+	background-image:url('BWTxtBox_iPad.png');
+	width:530px;
+	height:122px;
+	position:absolute;
+    left:247px;
+    top:44px;
+}
+
+.bwTxtLight{
+	background-image:url('BWTopLight_iPad.png');
+	width:530px;
+	height:122px;
+	position:absolute;
+    left:247px;
+    top:44px;
+    -webkit-animation:bwblink .3s infinite alternate;
+}
+
+.bwTxt{
+	background-image:url('BWTxt_iPad.png');
+	width:468px;
+	height:74px;
+	position:absolute;
+    left:278px;
+    top:64px;
+}
+
+.bwmask{
+	-webkit-mask:url('BWTxt_iPad.png');
+	overflow:hidden;
+	width:468px;
+	height:74px;
+	position:absolute;
+    left:278px;
+    top:64px;
+}
+
+.bwShine{
+    background-color: #FFFEB4;
+    position: absolute;
+    width: 25px;
+    height: 420px;
+    left: -38px;
+    top: -491px;
+    -webkit-filter: blur(5px);
+    -webkit-animation: bwshine 3s infinite;
+}
+
+.bwNumBox{
+	background-color: rgba(0,0,0,0.8);
+	border:2px solid #d7af2f;
+	border-radius:20px;
+	position: absolute;
+	width:626px;
+	height:147px;
+    left:195px;
+    top:279px;
+}
+
+.num{
+	font-family: 'Oswald', sans-serif;
+	font-size:22px;
+	font-weight:300;
+	position:absolute;
+	text-align:center;
+	width:200px;
+	color:white;
+}
+
+.Point{
+	background:-webkit-linear-gradient(top, rgba(255,140,10,1) 0%,rgba(247,239,0,1) 48%,rgba(252,250,237,1) 100%);
+	color:transparent;
+	-webkit-background-clip:text;
+    font-size: 110px;
+    width:600px;
+    top: 271px;
+    left:209px;
+    font-weight:700;
+}
+
+.level{
+    left:423px;
+    top:12px;
+}
+
+.totalNum{
+    left:50px;
+    top:12px;
+}
+
+.betNum{
+	left: 182px;
+    top: 710px;
+}
+
+.winNum{
+    left: 470px;
+    top: 717px;
+}
+
+.spin{
+	background-image:url("spin_iPad.png");
+	position: absolute;
+    width:111px;
+    height:96px;
+    left:820px;
+    top:668px;
+    -webkit-animation: blinkspin .3s ease infinite alternate;
+}
+
+@-webkit-keyframes reel-spin {
+	50%, 100% {-webkit-transform: translateY(2128px);}	
+}
+
+@-webkit-keyframes blinkspin {
+	from{-webkit-filter:brightness(50%);}
+	to{-webkit-filter:brightness(120%);}
+}
+
+@-webkit-keyframes blinkimage {
+	from{opacity:1;}
+	to{opacity:0;}
+}
+
+@-webkit-keyframes manSP {
+	100%{background-position:-1738px;}
+}
+
+@-webkit-keyframes chilliSP {
+	100%{background-position:-936px;}
+}
+
+@-webkit-keyframes bwblink {
+	from{opacity:1;}
+	to{opacity:0;}
+}
+
+@-webkit-keyframes bwshine {
+	from{-webkit-transform:rotate(50deg) translateX(0px);}
+	to{-webkit-transform:rotate(50deg) translateX(700px);}
+}
+
+@-webkit-keyframes splash{
+	0%{-webkit-transform:scale(0); opacity:0;}
+	30%{-webkit-transform:scale(.8); opacity:1;}
+	100%{-webkit-transform:scale(1); opacity:0;}
+}
+
+@-webkit-keyframes betclick {
+	0%, 100%{opacity:0;}
+	50%{opacity:1;}
+}

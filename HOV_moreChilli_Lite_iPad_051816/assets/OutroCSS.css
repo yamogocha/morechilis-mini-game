@@ -1,0 +1,271 @@
+/********** OUTRO SPECIFIC CSS **********/
+#main-container {
+	width: 1024px;
+	height: 768px;
+	position: absolute;
+}
+
+#outro-container{
+	background: radial-gradient(ellipse at center, rgba(69,185,251,1) 0%,rgba(53,144,253,1) 22%,rgba(37,105,215,1) 47%,rgba(0,45,130,1) 72%,rgba(0,18,66,1) 100%); 
+	width:1024px; 
+	height:768px; 
+	position:absolute; 
+	left:0; 
+	top:0;
+}
+
+#app-icon{
+
+	background-image:url("appIcon_iPad.png"); 
+	width:160px; 
+	height:160px; 
+	border-radius:40px; 
+	box-shadow:0px 0px 15px #3084f5;
+	position:absolute; 
+	left:60px; 
+	top:532px;
+}
+
+#logo{
+	background-image:url("logo_iPad.png"); 
+	position:absolute; 
+	width:213px; 
+	height:174px; 
+	top:40px; 
+	left:408px;
+}
+
+.little-bubble{
+	position:absolute;
+	width:96px;
+	height:96px;
+	border-radius:48px;
+	background-color:#dbeeff; 
+	-webkit-filter:blur(5px);
+	opacity:0.3;
+}
+
+.big-bubble{
+	position:absolute;
+	width:166px;
+	height:166px;
+	border-radius:83px;
+	background-color:#dbeeff; 
+	-webkit-filter:blur(5px);
+	opacity:0.3;
+}
+
+#bubble1{
+	left:253px; 
+	top:20px;
+	-webkit-animation: fading 1.3s linear 2s infinite alternate;
+}
+
+#bubble2{
+	left:816px; 
+	top:27px;
+	-webkit-animation: fading 1.7s linear 1s infinite alternate;
+}
+
+#bubble3{
+	left:7px; 
+	top:423px;
+	-webkit-animation: fading 1.5s linear 0s infinite alternate;
+}
+
+#bubble4{
+	left:735px; 
+	top:618px;
+	-webkit-animation: fading 1.9s linear .7s infinite alternate;
+}
+
+#bubble5{
+	left:68px; 
+	top:131px;
+	-webkit-animation: fading 1.1s linear .3s infinite alternate;
+}
+
+#bubble6{
+	left:224px; 
+	top:350px;
+	-webkit-animation: fading 2.0s linear 1.5s infinite alternate;
+}
+
+#bubble7{
+	left:650px; 
+	top:184px;
+	-webkit-animation: fading 1.0s linear 1.6s infinite alternate;
+}
+
+#bubble8{
+	left:931px; 
+	top:446px;
+	-webkit-animation: fading 1.66s linear 2s infinite alternate;
+}
+
+#star1{
+	background-image:url("star.png");
+	width:57px;
+	height:58px;
+	left:100px;
+	top:34px;
+	position:absolute;
+	-webkit-animation: blinking 1.34s linear 2.5s infinite alternate;
+}
+
+#star2{
+	background-image:url("star.png");
+	width:57px;
+	height:58px;
+	left:636px;
+	top:118px;
+	position:absolute;
+	-webkit-animation: blinking 1.77s linear 1.3s infinite alternate;
+}
+
+#star3{
+	background-image:url("star.png");
+	width:57px;
+	height:58px;
+	left:270px;
+	top:642px;
+	position:absolute;
+	-webkit-animation: blinking 1.52s linear 0.3s infinite alternate;
+}
+
+#star4{
+	background-image:url("star.png");
+	width:57px;
+	height:58px;
+	left:935px;
+	top:621px;
+	position:absolute;
+	-webkit-animation: blinking 1.98s linear 1.7s infinite alternate;
+}
+
+#star5{
+	background-image:url("star.png");
+	width:57px;
+	height:58px;
+	left:861px;
+	top:110px;
+	position:absolute;
+	-webkit-animation: blinking 1.12s linear .38s infinite alternate;
+}
+
+#star6{
+	background-image:url("star.png");
+	width:57px;
+	height:58px;
+	left:829px;
+	top:430px;
+	position:absolute;
+	-webkit-animation: blinking 2.76s linear 1.92s infinite alternate;
+}
+
+#star7{
+	background-image:url("star.png");
+	width:57px;
+	height:58px;
+	left:195px;
+	top:294px;
+	position:absolute;
+	-webkit-animation: blinking 1.1s linear 1.69s infinite alternate;
+}
+
+#animation-container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#mnectarbranding {
+	background-image: url('mNectarBrand_1024x52.png');
+	width: 1024px;
+	height: 52px;
+	top: 708px;
+	position: absolute;
+}
+/*function that defines the animation to be called later. It also defines the parameters and animation deforms. 
+http://www.w3schools.com/css/css3_animations.asp*/
+@-webkit-keyframes pulse {
+	from {
+		-webkit-transform: scale(1);
+	}
+
+	to {
+		-webkit-transform: scale(.8);
+	}
+}
+/*The top position of the bottom botton is the same across each screen*/
+#bottom-button {
+	position: absolute;
+    top:513px;
+}
+/*The position of the top botton is the same across each screen. The styling may be different*/
+#top-button {
+	width:474px;
+	height:173px;
+	position: absolute;
+    left: 270px;
+    top: 331px;
+	/*animation is called. This is in a very specific order. 1. animation name 2. duration 3. animation easing 4. delay 5. pattern*/
+	animation: pulse 1.5s ease-in-out .8s infinite alternate;
+}
+.install-click-url {
+	position: absolute;
+	width: 1004px;
+	height: 658px;
+	top: 100px;
+	left: 10px;
+}
+.idle-click-url {
+	position: absolute;
+	width: 440px;
+	height: 146px;
+	left: 292px;
+	top: 346px;
+}
+.error-click-url {
+	position: absolute;
+	width: 330px;
+	height: 126px;
+	top: 516px;
+	left: 347px;
+}
+.install-idle-dl {
+	background-image: url('CTA_iPadLand.png');
+}
+.install-thanks {
+	width:482px;
+	height:79px;
+	background-image: url('Thanks_iPadLand.png');
+    left: 274px;
+    top: 247px !important;
+}
+.idle-retry {
+	width:361px;
+	height:197px;
+	background-image: url('IdleRetry_iPadLand.png');
+    left:329px;
+}
+.error-dl {
+	width:361px;
+	height:155px;
+	background-image: url('DLerror_iPadLand.png');
+	left:328px;
+}
+.error-retry {
+	background-image: url('ErrorRetry_iPadLand.png');
+}
+
+@-webkit-keyframes blinking{
+	from {opacity:1;}
+	to {opacity:0;}
+}
+
+@-webkit-keyframes fading{
+	from {opacity:.3;}
+	to {opacity:0;}
+}
+/********** OUTRO SPECIFIC CSS **********/

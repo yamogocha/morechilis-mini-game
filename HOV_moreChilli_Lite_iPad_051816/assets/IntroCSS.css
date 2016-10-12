@@ -1,0 +1,38 @@
+#main-container {
+    width: 1024px;
+    height: 768px;
+    position: absolute;
+}
+
+#game-container{
+	position: absolute;
+	overflow:hidden;
+	width:1024px;
+	height:768px;
+	left: 0px;
+	top: 0px;
+}
+
+.intro-gamebg{
+	background-image:url("intro_iPad.png");
+	position: absolute;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+}
+
+.intro-spin{
+	background-image:url("spin_iPad.png");
+	position: absolute;
+    width:111px;
+    height:96px;
+    left:820px;
+    top:668px;
+    -webkit-animation: blinkspin .3s ease infinite alternate;
+}
+
+@-webkit-keyframes blinkspin {
+	from{-webkit-filter:brightness(50%);}
+	to{-webkit-filter:brightness(120%);}
+}
